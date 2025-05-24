@@ -3,18 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Howden Private Travel</title>
+  <title>Howden Private Travel | Luxury Chauffeur Service</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <!-- Link to your CSS file -->
   <link rel="stylesheet" href="style.css" />
+  <!-- Consider adding Font Awesome for social icons later -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
   <script defer src="script.js"></script>
 </head>
 <body>
   <header>
-    <div class="container">
+    <div class="container header-container">
       <h1 class="logo">Howden Private Travel</h1>
       <nav>
         <ul>
           <li><a href="#services">Services</a></li>
-          <li><a href="#fleet">Fleet</a></li>
+          <li><a href="#vehicle">Vehicle</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -22,46 +29,96 @@
     </div>
   </header>
 
-  <section class="hero">
+  <section class="hero" style="background-image: url('https://www.carpixel.net/w/7bbec367e1b4d593a7b2f5736bc5f899/ford-tourneo-custom-wallpaper.jpg');">
+    <!-- IMPORTANT: Replace above URL with a high-quality, professional photo of the actual vehicle in an appealing setting -->
     <div class="hero-content">
       <h2>Experience the Exceptional</h2>
       <p>Luxury. Privacy. Precision. Every time you travel with Howden Private Travel.</p>
-      <a href="#contact" class="btn">Book Now</a>
+      <a href="#contact" class="btn">Book Your Journey</a>
     </div>
   </section>
 
-  <section id="services" class="section">
-    <h3>Our Services</h3>
-    <p>From executive airport transfers to tailored private tours, our experienced chauffeurs ensure each journey exceeds expectations.</p>
-  </section>
+  <main>
+    <section id="services" class="section">
+      <div class="section-content">
+        <h3>Premier Chauffeur Services</h3>
+        <p>Based in Dalgety Bay, Howden Private Travel offers a tailored private hire experience. Whether you're travelling to the airport, a business meeting, or a special occasion, you'll enjoy professional, discreet service in a comfortable and spacious vehicle, ensuring a seamless and stress-free journey.</p>
+      </div>
+    </section>
 
-  <section id="fleet" class="section">
-    <h3>Our Fleet</h3>
-    <div class="fleet-gallery">
-      <div class="vehicle">Luxury Sedan</div>
-      <div class="vehicle">Executive SUV</div>
-      <div class="vehicle">VIP Van</div>
+    <section id="vehicle" class="section">
+      <div class="section-content">
+        <h3>Your Chauffeur Vehicle</h3>
+        <div class="vehicle-showcase">
+          <div class="vehicle-image-main">
+            <!-- IMPORTANT: Replace with a high-quality photo of the *actual* Ford Tourneo Custom exterior -->
+            <img src="https://tse4.mm.bing.net/th?id=OIP.zKlwEGXHiyJj1Bi6VK0cbAHaE8&pid=Api" alt="Ford Tourneo Custom - Exterior" />
+          </div>
+          <div class="vehicle-details">
+            <h4>Ford Tourneo Custom</h4>
+            <p>Spacious, comfortable, and professionally maintained to ensure your journey is seamless and enjoyable. Our vehicle offers:</p>
+            <ul>
+              <li>Ample legroom and passenger comfort</li>
+              <li>Generous luggage capacity</li>
+              <li>Climate control for a pleasant environment</li>
+              <li>Privacy glass for your discretion</li>
+              <li>Impeccably clean and maintained interior</li>
+              <!-- Add more specific features if applicable, e.g., leather seats, USB charging -->
+            </ul>
+            <!-- Optional: Add a small gallery of interior/detail shots here if you have them -->
+            <!--
+            <div class="vehicle-gallery-mini">
+              <img src="path/to/your/interior1.jpg" alt="Vehicle Interior">
+              <img src="path/to/your/interior2.jpg" alt="Vehicle Detail">
+            </div>
+            -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section">
+      <div class="section-content">
+        <h3>What Our Clients Say</h3>
+        <div class="testimonial-container">
+          <article class="testimonial-item">
+            <blockquote>
+              <p>"Unmatched professionalism. The only service I trust for my clients and my own airport transfers. Always punctual and the vehicle is immaculate."</p>
+              <cite>– Sarah R.</cite>
+            </blockquote>
+          </article>
+          <article class="testimonial-item">
+            <blockquote>
+              <p>"Every detail taken care of for our special occasion. Made the journey part of the experience. Truly five-star travel."</p>
+              <cite>– James T.</cite>
+            </blockquote>
+          </article>
+          <!-- Add more testimonials as needed -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="section">
+    <div class="section-content">
+      <h3>Contact Us to Book or Enquire</h3>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message (e.g., date, time, pick-up, destination)" rows="5"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-details">
+        <p>Alternatively, call us on: <a href="tel:+440000000000">00000 000000</a></p> <!-- Replace with actual phone number -->
+        <p>Email: <a href="mailto:info@howdenprivatetravel.com">info@howdenprivatetravel.com</a></p> <!-- Replace with actual email -->
+      </div>
+      <div class="socials">
+        <!-- Replace # with actual links. Consider using icons instead of text. -->
+        <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a> |
+        <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+      <p class="copyright">© 2025 Howden Private Travel. All rights reserved.</p>
     </div>
-  </section>
-
-  <section id="testimonials" class="section">
-    <h3>Client Testimonials</h3>
-    <blockquote>"Unmatched professionalism. The only service I trust for my clients." – Sarah R.</blockquote>
-    <blockquote>"Every detail taken care of. Five-star travel." – James T.</blockquote>
-  </section>
-
-  <footer id="contact">
-    <h3>Contact Us</h3>
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Email" required />
-      <textarea placeholder="Message"></textarea>
-      <button type="submit">Send</button>
-    </form>
-    <div class="socials">
-      <a href="#">Facebook</a> | <a href="#">Instagram</a>
-    </div>
-    <p>&copy; 2025 Howden Private Travel. All rights reserved.</p>
   </footer>
 </body>
 </html>
